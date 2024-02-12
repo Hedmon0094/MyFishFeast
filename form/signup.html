@@ -1,0 +1,38 @@
+<?php 
+include("reg.php");
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial scale="1">
+        <title>Sign-up Page.</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <div class="Sign-up">
+            <h4>Sign-up Here!</h4>
+            <form>
+                <label>First Name</label>
+                <input type="text"placeholder="fname" required>
+                <label>Last Name</label>
+                <input type="text" placeholder="lname" required>
+                <label>Gender</label>
+                <input type="text" placeholder="gender" required>
+                <label>Contact</label>
+                <input type="tel" placeholder="contact" required>
+                <label>Email</label>
+                <input type="email" placeholder="email" required>
+                <label>Password</label>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" name="submit" value="submit">
+
+            </form>
+            <br>
+            <p>Already have an Account? <a href="../pages/login.php">Login Here</a></p>
+        </div>
+    </body>
+</html>
